@@ -25,10 +25,15 @@ public class Main {
 
         // float y decimal
 
-        float varFloat = 35;
+        float varFloat = 35f;
         System.out.println(varFloat);
 
-        double varDouble = 19.00;
+        double varDouble = 19.00d;
         System.out.println(varDouble);
+
+        // char
+
+        char varChar = 'A';
+        System.out.println(varChar);
     }
 }
