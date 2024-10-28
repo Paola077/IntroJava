@@ -19,6 +19,7 @@ public class Coche {
             if (km > 0) {
                 this.kilometraje += km;
             }
+            return km;
         }
 
         public void printInformacion() {
