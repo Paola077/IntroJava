@@ -1,6 +1,6 @@
-package org.example;
+package org.example.basics;
 
-public class ForLoop {
+public class Loops {
     public static void main(String[] args) {
         // imprimir por consola los números de 5 a 10 usando un for
 
