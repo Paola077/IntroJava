@@ -5,5 +5,9 @@ public class Main {
 
         System.out.println("Hello World");
 
+        // escribir un boolean, asignarlo y mostrarlo por consola
+        boolean  isActive = true;
+
+        System.out.println(isActive);
     }
 }
