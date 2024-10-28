@@ -3,9 +3,9 @@ package org.example.coches;
 public class Main {
     public static void main(String[] args) {
 
-        Coche coche = new Coche("Seat", "Ibiza", 2000, 2.5);
+        Coche coche = new Coche("Seat", "Ibiza", 2000, 30000.5);
         coche.printInformacion();
-        coche.conducir(2.5);
+        coche.conducir(2000);
         System.out.println("Despues de conducir un tiempo: ");
         coche.printInformacion();
     }

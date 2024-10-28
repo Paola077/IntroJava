@@ -17,7 +17,7 @@ public class Coche {
 
         public double conducir (double km) {
             if (km > 0) {
-                this.kilometraje += km;
+                this.kilometraje = this.kilometraje + km;
             }
             return km;
         }
