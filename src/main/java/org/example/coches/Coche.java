@@ -15,11 +15,10 @@ public class Coche {
             this.kilometraje = kilometraje;
         }
 
-        public double conducir (double km) {
+        public void conducir (double km) {
             if (km > 0) {
                 this.kilometraje = this.kilometraje + km;
             }
-            return km;
         }
 
         public void printInformacion() {
