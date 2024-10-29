@@ -54,6 +54,7 @@
     "Application.Inputs.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Strings.executor": "Run",
+    "Application.org.example.bookManager.Main.executor": "Run",
     "Application.org.example.users.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,7 +70,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Inputs">
+  <component name="RunManager" selected="Application.org.example.bookManager.Main">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.Arrays" />
       <module name="IntroduccionAJava" />
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.Loops" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.coches.Main" />
       <module name="IntroduccionAJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="PATTERN" value="org.example.coches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.coches.Main" />
+    <configuration name="org.example.bookManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.bookManager.Main" />
       <module name="IntroduccionAJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.coches.*" />
+          <option name="PATTERN" value="org.example.bookManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.bookManager.Main" />
         <item itemvalue="Application.Inputs" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.users.Main" />
         <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.Loops" />
       </list>
     </recent_temporary>
   </component>
