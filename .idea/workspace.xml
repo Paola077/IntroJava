@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65161d2a-f050-454c-b6ea-3188bf47fe99" name="Changes" comment="" />
+    <list default="true" id="65161d2a-f050-454c-b6ea-3188bf47fe99" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,7 @@
     "Application.Arrays.executor": "Run",
     "Application.Conditionals.executor": "Run",
     "Application.ForLoop.executor": "Run",
+    "Application.Inputs.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Strings.executor": "Run",
     "Application.org.example.users.Main.executor": "Run",
@@ -66,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Inputs">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.Arrays" />
       <module name="IntroduccionAJava" />
@@ -80,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.Conditionals" />
+    <configuration name="Inputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.scanner.Inputs" />
       <module name="IntroduccionAJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="PATTERN" value="org.example.scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inputs" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.users.Main" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Loops" />
-        <item itemvalue="Application.Conditionals" />
       </list>
     </recent_temporary>
   </component>
