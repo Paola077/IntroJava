@@ -23,7 +23,7 @@ public class Coche {
         }
 
         public void printInformacion() {
-            System.out.println("Marca: " + marca + "\nModelo: " + modelo + "\nAño: " + año + "\nKilometraje: " + kilometraje);
+            System.out.println("Marca: " + marca + "\nModelo: " + modelo + "\nAño: " + año + "\nKilometraje: \n" + kilometraje);
         }
 }
 

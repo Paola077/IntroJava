@@ -6,7 +6,7 @@ public class Main {
         Coche coche = new Coche("Seat", "Ibiza", 2000, 30000.5);
         coche.printInformacion();
         coche.conducir(2000);
-        System.out.println("Despues de conducir un tiempo: ");
+        System.out.println("\nDespues de conducir un tiempo: \n");
         coche.printInformacion();
     }
 }
