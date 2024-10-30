@@ -1,8 +1,16 @@
 package org.example.bookManager;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Application {
+
+    private ArrayList <Book> bookList = new ArrayList<>();
+
+    public Application() {
+        //this.bookList.add(new Book("A123", "Title", "Author"));
+    }
+
     public void printMenu() {
         Scanner scanner = new Scanner(System.in);
         String[] menu = {
@@ -37,6 +45,20 @@ public class Application {
                 continue;
             }
             System.out.println("Ha elegido: " + menu[option - 1]);
+            this.optionSelector(option);
+
+            System.out.println("___________________________");
+        }
+    }
+
+    private void optionSelector(byte option) {
+        if(option == 2) this.printBookList();
+    }
+
+    private void printBookList() {
+        if (bookList.isEmpty()) System.out.println("No hay libros");
+        for (Book book : bookList) {
+            System.out.println(book.toString());
         }
     }
 }
