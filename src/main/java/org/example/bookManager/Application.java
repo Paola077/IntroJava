@@ -8,7 +8,7 @@ public class Application {
     private ArrayList <Book> bookList = new ArrayList<>();
 
     public Application() {
-        //this.bookList.add(new Book("A123", "Title", "Author"));
+        this.bookList.add(new Book("A123", "Title", "Author"));
     }
 
     public void printMenu() {
