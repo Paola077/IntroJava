@@ -2,7 +2,7 @@ package org.example.herencia;
 
 public class Vehiculo {
     private String marca;
-    private int velocity;
+    protected int velocity;
     protected int ruedas;
 
     public Vehiculo(String marca) {
@@ -12,6 +12,10 @@ public class Vehiculo {
 
     public void acelerar () {
         this.velocity += 10;
+    }
+
+    public void frenar () {
+        this.velocity -= 5;
     }
 
     public String getMarca() {
@@ -25,4 +29,5 @@ public class Vehiculo {
     public int getRuedas() {
         return ruedas;
     }
+
 }

@@ -5,4 +5,14 @@ public class Car extends Vehiculo{
         super(marca);
         this.ruedas = 4;
     }
+
+    @Override
+    public void acelerar() {
+       this.velocity += 30;
+    }
+
+    @Override
+    public void frenar() {
+        this.velocity -= 20;
+    }
 }
