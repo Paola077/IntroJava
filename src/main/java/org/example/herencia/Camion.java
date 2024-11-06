@@ -9,11 +9,11 @@ public class Camion extends Vehiculo{
 
     @Override
     public void acelerar() {
-        this.velocity = 50;
+        this.velocity += 50;
     }
 
     @Override
     public void frenar() {
-        this.velocity = 30;
+        this.velocity -= 30;
     }
 }
