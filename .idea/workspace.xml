@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65161d2a-f050-454c-b6ea-3188bf47fe99" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/herencia/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/herencia/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/herencia/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/herencia/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/herencia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/herencia/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/herencia/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/herencia/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/herencia/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/herencia/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/BookConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Arrays.executor": "Run",
-    "Application.Conditionals.executor": "Run",
-    "Application.ForLoop.executor": "Run",
-    "Application.Inputs.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Strings.executor": "Run",
-    "Application.org.example.bookManager.Main.executor": "Run",
-    "Application.org.example.herencia.Main.executor": "Run",
-    "Application.org.example.repaso.Main.executor": "Run",
-    "Application.org.example.users.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/paolaperdomo/Desktop/ProyectBackend/IntroJava",
-    "onboarding.tips.debug.path": "/Users/paolaperdomo/Desktop/ProyectBackend/IntroduccionAJava/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conditionals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inputs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.bookManager.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.herencia.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.repaso.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.users.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paolaperdomo/Desktop/ProyectBackend/IntroJava&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/paolaperdomo/Desktop/ProyectBackend/IntroduccionAJava/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
