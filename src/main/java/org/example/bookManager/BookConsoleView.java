@@ -81,7 +81,6 @@ public class BookConsoleView {
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
-
     }
 
     private void printBookList() {
