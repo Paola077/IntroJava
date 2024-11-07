@@ -1,6 +1,6 @@
 package org.example.herencia;
 
-public class Vehiculo {
+public abstract class Vehiculo {
     private String marca;
     protected int velocity;
     protected int ruedas;
@@ -10,24 +10,8 @@ public class Vehiculo {
         this.velocity = 0;
     }
 
-    public void acelerar () {
-        this.velocity += 10;
-    }
+    public abstract void acelerar();
 
-    public void frenar () {
-        this.velocity -= 5;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public int getVelocity() {
-        return velocity;
-    }
-
-    public int getRuedas() {
-        return ruedas;
-    }
+    public abstract void frenar();
 
 }

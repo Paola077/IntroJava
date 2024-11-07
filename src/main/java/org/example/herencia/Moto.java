@@ -16,4 +16,9 @@ public class Moto extends Vehiculo{
     public void frenar() {
         this.velocity -= 10;
     }
+
+    @Override
+    public String toString() {
+        return "La moto va a: " + this.velocity + " km/h";
+    }
 }
