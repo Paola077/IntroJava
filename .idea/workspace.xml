@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65161d2a-f050-454c-b6ea-3188bf47fe99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/logic/BookManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/BookConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/logic/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/BookConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/presentation/BookConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/BookManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookManager/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,53 +52,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conditionals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inputs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.bookManager.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.herencia.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.repaso.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.users.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/paolaperdomo/Desktop/ProyectBackend/IntroJava&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/paolaperdomo/Desktop/ProyectBackend/IntroduccionAJava/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Arrays.executor": "Run",
+    "Application.Conditionals.executor": "Run",
+    "Application.ForLoop.executor": "Run",
+    "Application.Inputs.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.org.example.bookManager.Main.executor": "Run",
+    "Application.org.example.herencia.Main.executor": "Run",
+    "Application.org.example.repaso.Main.executor": "Run",
+    "Application.org.example.repaso2.Main.executor": "Run",
+    "Application.org.example.users.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/paola/Escritorio/Bootcamp_AWS_Backend/api-rest",
+    "onboarding.tips.debug.path": "/Users/paolaperdomo/Desktop/ProyectBackend/IntroduccionAJava/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.bookManager" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.org.example.bookManager.Main">
-    <configuration name="Inputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.scanner.Inputs" />
-      <module name="IntroduccionAJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.scanner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.coches.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.database.Main" />
       <module name="IntroduccionAJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.coches.*" />
+          <option name="PATTERN" value="org.example.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +102,7 @@
       <module name="IntroduccionAJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.bookManager.*" />
+          <option name="PATTERN" value="org.example.bookManager.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +116,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.herencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.repaso2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.repaso2.Main" />
+      <module name="IntroduccionAJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.repaso2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.org.example.bookManager.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.repaso2.Main" />
         <item itemvalue="Application.org.example.herencia.Main" />
         <item itemvalue="Application.org.example.repaso.Main" />
-        <item itemvalue="Application.Inputs" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

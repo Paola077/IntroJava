@@ -1,4 +1,4 @@
-package org.example.bookManager;
+package org.example.bookManager.logic;
 
 public class Book {
     private String isbn;
@@ -22,5 +22,14 @@ public class Book {
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 '}';
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+
+    public String getAuthor() {
+        return author;
     }
 }

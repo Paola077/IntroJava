@@ -1,15 +1,27 @@
-package org.example.bookManager;
+package org.example.bookManager.presentation;
 
+import org.example.bookManager.logic.BookRepository;
+import org.example.bookManager.logic.Book;
+import org.example.bookManager.logic.BookManager;
+import org.example.bookManager.persistance.InMemoryRepository;
+import org.example.bookManager.persistance.MySQLBookRepository;
+
+import java.util.List;
 import java.util.Scanner;
 
 public class BookConsoleView {
 
-    private final BookManager bookManager = new BookManager();
+    private final BookManager bookManager;
+    private final BookRepository inMemoryRepository;
+    private final BookRepository mySqlRepository;
     private Scanner scanner = new Scanner(System.in);
 
     public BookConsoleView() {
-
+        this.mySqlRepository = new MySQLBookRepository();
+        this.inMemoryRepository = new InMemoryRepository();
+        this.bookManager = new BookManager(new MySQLBookRepository());
     }
+
 
     public void printMenu() {
 
@@ -55,6 +67,23 @@ public class BookConsoleView {
         if(option == 1) this.printAddBookMenu();
         if(option == 2) this.printBookList();
         if(option == 3) this.printRemoveBookMenu();
+        if(option == 4) this.printChangeRepository();
+    }
+
+    private void printChangeRepository() {
+        System.out.println("Seleccione un repositoyio:");
+        System.out.println("1.Memoria");
+        System.out.println("2.Base de datos MySQL");
+        System.out.println("Seleccione una opción:");
+
+        String optionRepository = scanner.nextLine();
+        if (optionRepository.equals("1")) {
+            bookManager.changeRepository(inMemoryRepository);
+        }
+
+        if (optionRepository.equals("2")) {
+            bookManager.changeRepository(mySqlRepository);
+        }
     }
 
     private void printRemoveBookMenu() {
@@ -84,7 +113,8 @@ public class BookConsoleView {
     }
 
     private void printBookList() {
-        var bookList = bookManager.getAllBooks();
+        List<Book> bookList = bookManager.getAllBooks();
+
         for (Book book : bookList) {
             System.out.println(book.toString());
         }
